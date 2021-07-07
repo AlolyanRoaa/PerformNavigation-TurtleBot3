@@ -54,10 +54,10 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 We must estimate the initial pose before running the Navigation, Click the <img src="https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/07-2d%20pose%20estimate.PNG" width="125"> button in the RViz menu.
 
 
-Click on the map where the robot is located, and then drag the arrow toward the direction where the robot is facing.
+Click on the map where the robot is located, and then drag the arrow toward the direction where the robot is facing. The pictures below executing the robot after estimate the initial pose
 
 
-![04-after estimate the initial pose](https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/04-after%20estimate%20the%20initial%20pose.PNG)
+<img src="https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/04-after%20estimate%20the%20initial%20pose.PNG" width="400">
 
 
 now click the <img src="https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/06-2d%20nav%20gaol.PNG" width="125"> button in the RViz menu, then specify destination and direction.
