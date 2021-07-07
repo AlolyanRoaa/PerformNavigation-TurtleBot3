@@ -31,7 +31,7 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-![1]()
+![01-Launch simulation](https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/01-Launch%20simulation.PNG)
 
 
 when gazebo start open a new terminal and run the navigation node with the map we created earlier, and RViz window will open.
@@ -42,40 +42,33 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 ```
 
-![2]()
+![02-Run navigation](https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/02-Run%20navigation.PNG)
 
 
-![]()
+![03-Run navigation](https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/03-Run%20navigation.PNG)
 
 
 ## How to control the robot in the simulation environment
 
 
-We must estimate the initial pose before running the Navigation, Click the **2D Pose Estimate** button in the RViz menu.
+We must estimate the initial pose before running the Navigation, Click the <img src="https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/07-2d%20pose%20estimate.PNG" width="125"> button in the RViz menu.
 
 
 Click on the map where the robot is located, and then drag the arrow toward the direction where the robot is facing.
 
 
-now click the **2D Nav Goal** button in the RViz menu, then specify destination and direction.
+![04-after estimate the initial pose](https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/04-after%20estimate%20the%20initial%20pose.PNG)
 
-![]()
+
+now click the <img src="https://github.com/AlolyanRoaa/PerformNavigation-TurtleBot3/blob/main/06-2d%20nav%20gaol.PNG" width="125"> button in the RViz menu, then specify destination and direction.
+
 
 
 ## Demo
 
 
-![]()
 
-
-
-
-
-
-
-
-
-
+https://user-images.githubusercontent.com/85321139/124842158-99e66100-df97-11eb-931d-c73900bf9628.mp4
 
 
 
